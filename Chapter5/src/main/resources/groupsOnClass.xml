@@ -9,6 +9,7 @@
         </classes>
     </test>
     <test name="onlyRunStu">
+        <!--group执行 ，执行指定的groupName 不是这个groupName的Class就不执行-->
         <groups>
             <run>
                 <include name="stu"/>
