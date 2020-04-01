@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5260f61-c61e-4c74-898f-86d1d02b7bd4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter6/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter6/src/main/resources/report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter6/src/main/resources/report.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
     <ignored path="$PROJECT_DIR$/Chapter5/target/" />
     <ignored path="$PROJECT_DIR$/Chapter6/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter7/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,33 +59,37 @@
         <counts>
           <entry key="html" value="2" />
           <entry key="java" value="27" />
+          <entry key="json" value="1" />
           <entry key="kt" value="2" />
-          <entry key="xml" value="18" />
+          <entry key="xml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
           <entry key="JAVA" value="27" />
+          <entry key="JSON" value="1" />
           <entry key="Kotlin" value="2" />
-          <entry key="XML" value="18" />
+          <entry key="XML" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
           <entry key="java" value="2113" />
+          <entry key="json" value="82" />
           <entry key="kt" value="5" />
-          <entry key="txt" value="164" />
-          <entry key="xml" value="970" />
+          <entry key="txt" value="181" />
+          <entry key="xml" value="979" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2113" />
+          <entry key="JSON" value="82" />
           <entry key="Kotlin" value="5" />
-          <entry key="PLAIN_TEXT" value="165" />
-          <entry key="XML" value="970" />
+          <entry key="PLAIN_TEXT" value="182" />
+          <entry key="XML" value="979" />
         </counts>
       </usages-collector>
     </session>
@@ -99,7 +105,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter6/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter7/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/com/test/report/ExtentTestNGReport.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -114,38 +147,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter7/src/main/java/com/foo.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/thread.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/groupsOnClass.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/paramter.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -218,13 +233,15 @@
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/multiThread/MultiThreadTestOnXml.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/multiThread/MultiThreadTestOnXml2.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/resources/thread.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Chapter6/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter6/src/main/java/com/test/report/TestReport.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/resources/groupsOnClass.xml" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/resources/paramter.xml" />
         <option value="$PROJECT_DIR$/Chapter6/src/main/java/com/test/report/ExtentTestNGReport.java" />
         <option value="$PROJECT_DIR$/Chapter6/src/main/resources/report.xml" />
+        <option value="$PROJECT_DIR$/Chapter6/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter7/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter7/src/main/java/com/foo.json" />
       </list>
     </option>
   </component>
@@ -253,15 +270,29 @@
           <item name="Chapter6" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Chapter7" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Chapter7" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Chapter7" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="y" value="7" />
+    <option name="x" value="30" />
+    <option name="y" value="140" />
     <option name="width" value="1270" />
-    <option name="height" value="1043" />
+    <option name="height" value="1012" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -280,51 +311,25 @@
             <path>
               <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter6" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter6" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -332,7 +337,7 @@
             <path>
               <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter6" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -340,38 +345,7 @@
             </path>
             <path>
               <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAutoTestProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAutoTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter6" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -383,7 +357,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585746587933" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585755561653" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -395,6 +369,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.course.multiThread" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjectCode\JavaAutoTestProject\Chapter7\src\main\java\com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -502,7 +479,7 @@
       <workItem from="1585575943936" duration="4506000" />
       <workItem from="1585661525944" duration="4828000" />
       <workItem from="1585670094861" duration="102000" />
-      <workItem from="1585745343834" duration="1242000" />
+      <workItem from="1585745343834" duration="5247000" />
     </task>
     <task id="LOCAL-00001" summary="新增了关于TestNG 框架的基础知识的案例，不同注解的使用">
       <created>1585404908717</created>
@@ -532,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585670147990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="解决测试报告不能加载样式的问题">
+      <created>1585746620554</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585746620554</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -568,10 +552,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30936000" />
+    <option name="totallyTimeSpent" value="34941000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="7" width="1270" height="1043" extended-state="0" />
+    <frame x="30" y="140" width="1270" height="1012" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28677687" />
@@ -583,7 +567,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11638418" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4124294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -591,7 +575,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.1819209" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34192038" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32655367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -603,7 +587,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.5317869" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.531405" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32928944" />
     </layout>
   </component>
@@ -618,7 +602,8 @@
     <MESSAGE value="新增了参数化测试内容&#10;@Parameter(&quot;name&quot;,&quot;age&quot;)&#10;@DataProvider(name = &quot;methodProvider&quot;)" />
     <MESSAGE value="新增：多线程测试的基本用法" />
     <MESSAGE value="新增：测试报告的用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增：测试报告的用法" />
+    <MESSAGE value="解决测试报告不能加载样式的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决测试报告不能加载样式的问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java">
@@ -748,20 +733,6 @@
         <state relative-caret-position="-528" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/groupsOnClass.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -818,6 +789,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter6/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/com/test/report/ExtentTestNGReport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -828,6 +806,27 @@
             <element signature="e#6202#6433#0" expanded="true" />
             <element signature="e#6432#6433#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/src/main/java/com/foo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
