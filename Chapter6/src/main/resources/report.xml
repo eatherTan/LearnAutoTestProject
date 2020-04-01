@@ -16,6 +16,7 @@
     </test>
     <!--使用监听器-->
     <listeners>
-        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+        <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <listener class-name="com.test.report.ExtentTestNGReport"/>
     </listeners>
 </suite>
