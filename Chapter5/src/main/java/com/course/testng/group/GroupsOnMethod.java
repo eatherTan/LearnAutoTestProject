@@ -5,11 +5,11 @@ import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 
 public class GroupsOnMethod {
-    @Test(groups = "server")
+    @Test(groups = "server1")
     public void test1(){
         System.out.println("这是服务端组的测试方法111");
     }
-    @Test(groups = "server")
+    @Test(groups = "server1")
     public void test2(){
         System.out.println("这是服务端组的测试方法222");
     }
