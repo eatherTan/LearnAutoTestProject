@@ -10,7 +10,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication//(exclude = DataSourceAutoConfiguration.class)
 @EnableSwagger2
-@ComponentScan("hello.*")
+@ComponentScan(value = "hello.controller")
 public class Application {
 
     public static void main(String[] args) {
