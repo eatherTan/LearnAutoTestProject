@@ -23,6 +23,7 @@ public class UserController {
 
 
     @RequestMapping("/test")
+    @ApiOperation(value = "查询用户列表",httpMethod = "GET")
     public String test(){
         return "test";
     }
