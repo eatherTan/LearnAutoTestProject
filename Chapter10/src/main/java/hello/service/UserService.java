@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Component
 public interface UserService {
     List<User> queryUserList();
 }
