@@ -12,10 +12,10 @@
 //
 //    @Test
 //    public void should_response_as_expected() throws Exception {
-//        HttpServer server = httpServer(12306);
-//        server.response("foo");
+//        HttpServer server1 = httpServer(12306);
+//        server1.response("foo");
 //
-//        running(server, new Runnable() {
+//        running(server1, new Runnable() {
 //            @Override
 //            public void run() throws IOException {
 //                Content content = Request.Get("http://localhost:12306").execute().returnContent();

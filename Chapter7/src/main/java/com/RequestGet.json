@@ -36,5 +36,29 @@
     "response": {
       "text": "带参数的Post请求"
     }
+  },
+  {
+    "description":"重定向到百度",
+    "request":{
+      "uri":"/redirect",
+      "method":"get"
+    },
+    "redirectTo":"http://www.baidu.com"
+  },
+  {
+    "description":"这是被重定向的请求",
+    "request":{
+      "uri":"/toRedirect"
+    },
+    "response":{
+      "text":"this is the redirect page"
+    }
+  },
+  {
+    "description":"重定向到自己的网页上，回到第一个uri里面",
+    "request":{
+      "uri":"/myStation"
+    },
+    "redirectTo":"/redirect"
   }
 ]
