@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5260f61-c61e-4c74-898f-86d1d02b7bd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter10/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter10/src/main/java/hello/config/DataSource1Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/hello/config/DataSource1Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter10/src/main/java/hello/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/hello/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter10/src/main/java/hello/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/hello/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter10/src/main/java/hello/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10/src/main/java/hello/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter10/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -106,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter10/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="198">
+              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -398,7 +391,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586518252769" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586518325083" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -533,7 +526,7 @@
       <workItem from="1585670094861" duration="102000" />
       <workItem from="1585745343834" duration="5948000" />
       <workItem from="1585834000051" duration="4978000" />
-      <workItem from="1586499913164" duration="6193000" />
+      <workItem from="1586499913164" duration="6829000" />
     </task>
     <task id="LOCAL-00001" summary="新增了关于TestNG 框架的基础知识的案例，不同注解的使用">
       <created>1585404908717</created>
@@ -591,7 +584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586494204773</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="解决链接数据库不成功的问题">
+      <created>1586518320931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586518320931</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -627,11 +627,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112164000" />
+    <option name="totallyTimeSpent" value="112800000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -644,7 +643,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.24184477" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32845894" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959838" visible="true" weight="0.44577006" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959838" weight="0.44577006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -719,7 +718,8 @@
     <MESSAGE value="Mock 第一个运行案例" />
     <MESSAGE value="Mock 的Post请求" />
     <MESSAGE value="解决冲突" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决冲突" />
+    <MESSAGE value="解决链接数据库不成功的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决链接数据库不成功的问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Chapter11/src/main/resources/mapper/mysql.xml" />
@@ -1004,8 +1004,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter10/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="198">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
