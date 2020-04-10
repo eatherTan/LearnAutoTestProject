@@ -18,10 +18,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Chapter10" options="" />
-      <module name="Chapter5" options="" />
-      <module name="Chapter6" options="" />
-      <module name="Chapter7" options="" />
+      <module name="Chapter10" options="-parameters" />
+      <module name="Chapter5" options="-parameters" />
+      <module name="Chapter6" options="-parameters" />
+      <module name="Chapter7" options="-parameters" />
     </option>
   </component>
 </project>

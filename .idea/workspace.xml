@@ -470,7 +470,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586448393687" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586494181995" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaLectrue" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -635,7 +635,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/ProjectCode/JavaAutoTestProject/Chapter5/src/main/resources/groupsOnClass.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/ProjectCode/JavaAutoTestProject/Chapter5/src/main/resources/groupsOnClass.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter5" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter5/src/main/resources/groupsOnClass.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -645,7 +645,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/ProjectCode/JavaAutoTestProject/Chapter5/src/main/resources/paramter.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/ProjectCode/JavaAutoTestProject/Chapter5/src/main/resources/paramter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter5" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter5/src/main/resources/paramter.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -655,7 +655,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/ProjectCode/JavaAutoTestProject/Chapter5/src/main/resources/thread.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/ProjectCode/JavaAutoTestProject/Chapter5/src/main/resources/thread.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter5" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter5/src/main/resources/thread.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -665,7 +665,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/ProjectCode/JavaAutoTestProject/Chapter6/src/main/resources/report.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/ProjectCode/JavaAutoTestProject/Chapter6/src/main/resources/report.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter6" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter6/src/main/resources/report.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -675,7 +675,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadTestOnAnnotation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiThreadTestOnAnnotation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter5" />
       <extension name="coverage">
         <pattern>
@@ -685,6 +685,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.course.multiThread" />
       <option name="MAIN_CLASS_NAME" value="com.course.multiThread.MultiThreadTestOnAnnotation" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
