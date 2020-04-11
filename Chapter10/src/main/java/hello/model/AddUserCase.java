@@ -1,21 +1,12 @@
 package hello.model;
 
-public class User {
-    private Integer id;
+public class AddUserCase {
     private String userName;
     private String password;
     private String sex;
     private String age;
     private String permission;
-    private String isDelete;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
+    private String expected;
 
     public String getUserName() {
         return userName;
@@ -57,11 +48,11 @@ public class User {
         this.permission = permission;
     }
 
-    public String getIsDelete() {
-        return isDelete;
+    public String getExpected() {
+        return expected;
     }
 
-    public void setIsDelete(String isDelete) {
-        this.isDelete = isDelete;
+    public void setExpected(String expected) {
+        this.expected = expected;
     }
 }

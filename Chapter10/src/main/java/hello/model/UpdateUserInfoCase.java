@@ -1,13 +1,13 @@
 package hello.model;
 
-public class User {
+public class UpdateUserInfoCase {
     private Integer id;
-    private String userName;
-    private String password;
+    private Integer userId;
+    private String userNama;
     private String sex;
     private String age;
     private String permission;
-    private String isDelete;
+    private String expected;
 
     public Integer getId() {
         return id;
@@ -17,20 +17,20 @@ public class User {
         this.id = id;
     }
 
-    public String getUserName() {
-        return userName;
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
-    public String getPassword() {
-        return password;
+    public String getUserNama() {
+        return userNama;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setUserNama(String userNama) {
+        this.userNama = userNama;
     }
 
     public String getSex() {
@@ -57,11 +57,11 @@ public class User {
         this.permission = permission;
     }
 
-    public String getIsDelete() {
-        return isDelete;
+    public String getExpected() {
+        return expected;
     }
 
-    public void setIsDelete(String isDelete) {
-        this.isDelete = isDelete;
+    public void setExpected(String expected) {
+        this.expected = expected;
     }
 }

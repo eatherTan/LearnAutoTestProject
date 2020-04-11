@@ -1,21 +1,12 @@
-package hello.model;
+package hello.model.request;
 
-public class User {
-    private Integer id;
+public class QueryUserListRequest {
     private String userName;
     private String password;
     private String sex;
     private String age;
     private String permission;
     private String isDelete;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getUserName() {
         return userName;

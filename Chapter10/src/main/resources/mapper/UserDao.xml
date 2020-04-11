@@ -6,5 +6,55 @@
         SELECT *
         FROM user
         WHERE 1 = 1
+        <if test="userName != null and userName != ''">
+            and a.userName = #{userName}
+        </if>
+        <if test="password != null and password != ''">
+            and a.password = #{password}
+        </if>
+        <if test="age != null and age != ''">
+            and a.age = #{age}
+        </if>
+        <if test="sex != null and sex != ''">
+            and a.sex = #{sex}
+        </if>
     </select>
+
+    <select id="getUserInfo" resultType="hello.model.User">
+        SELECT *
+        FROM user
+        WHERE 1 = 1
+        <if test="id != null ">
+            and a.id = #{id}
+        </if>
+    </select>
+
+    <insert id="addUser"  keyColumn="id" keyProperty="id" useGeneratedKeys="true">
+        insert into user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="userName != null">userName,</if>
+            <if test="password != null">password,</if>
+            <if test="age != null">age,</if>
+            <if test="sex != null">sex,</if>
+            <if test="permission != null">permission,</if>
+            <if test="isDelete != null">isDelete,</if>
+        </trim>
+        <trim prefix="values (" suffix=");" suffixOverrides=",">
+            <if test="userName != null">#{userName},</if>
+            <if test="password != null">#{password},</if>
+            <if test="age != null">#{age},</if>
+            <if test="sex != null">#{sex},</if>
+            <if test="permission != null">#{permission},</if>
+            <if test="isDelete != null">#{isDelete},</if>
+        </trim>
+    </insert>
+
+    <update id="updateUserInfo">
+        update user
+        <trim prefix="set" suffixOverrides=",">
+        <if test="userName != null">
+            userName = #{userName},
+        </if>
+        </trim>
+    </update>
 </mapper>

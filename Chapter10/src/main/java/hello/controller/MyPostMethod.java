@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @RestController
 @Api(value = "/", description = "Post方法")
-@RequestMapping("v1")
+@RequestMapping("v2")
 public class MyPostMethod {
 
     private static Cookie cookie;
@@ -41,9 +41,9 @@ public class MyPostMethod {
         Cookie[] cookies = request.getCookies();
         for (Cookie cookie : cookies) {
             if (cookie.getName().equals("login1") && cookie.getValue().equals("true")) {
-                if (user.getName().equals("zhangsan")) {
+                if (user.getUserName().equals("zhangsan")) {
                     User u = new User();
-                    u.setName("lisi");
+                    u.setUserName("lisi");
                     return u.toString();
                 } else {
                     return "名字错误";
