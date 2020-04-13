@@ -4,7 +4,7 @@ public class GetUserListCase {
     private String userName;
     private String age;
     private String sex;
-
+    private String expected;
     public String getUserName() {
         return userName;
     }
@@ -27,5 +27,13 @@ public class GetUserListCase {
 
     public void setSex(String sex) {
         this.sex = sex;
+    }
+
+    public String getExpected() {
+        return expected;
+    }
+
+    public void setExpected(String expected) {
+        this.expected = expected;
     }
 }

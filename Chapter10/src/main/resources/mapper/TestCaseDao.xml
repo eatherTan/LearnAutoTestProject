@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="hello.dao.TestCaseDao">
+
+    <sql id="addUserCaseColumns">
+        a.UserName AS 'userName',
+		a.Password AS 'password',
+		a.Sex AS 'sex',
+		a.Age AS 'age',
+		a.Permission AS 'permission',
+		a.Expected AS 'expected'
+    </sql>
+    <select id="getUserInfo" resultType="hello.model.AddUserCase">
+        select *
+        from addusercase a
+        where a.id = #{id}
+    </select>
+    <select id="getLoginCase" resultType="hello.model.LoginCase">
+        select *
+        from logincase a
+        where a.id = #{id}
+    </select>
+
+</mapper>
