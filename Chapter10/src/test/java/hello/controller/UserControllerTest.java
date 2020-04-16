@@ -1,4 +1,4 @@
-package hello.cases;
+package hello.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import hello.Application;
@@ -14,7 +14,6 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.testng.Assert;
@@ -23,12 +22,13 @@ import org.testng.annotations.Test;
 
 import javax.annotation.Resource;
 import java.io.IOException;
-@RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest
-@WebAppConfiguration
-public class LoginTest {
 
-//    @Autowired
+import static org.testng.Assert.*;
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootTest(classes = Application.class)
+@WebAppConfiguration
+public class UserControllerTest {
+
     @Resource
     private TestCaseDao testCaseDao;
 
@@ -84,7 +84,7 @@ public class LoginTest {
         post.setEntity(entity);
 
         //赋值cookie
-         TestConfig.cookieStore = TestConfig.defaultHttpClient.getCookieStore();
+        TestConfig.cookieStore = TestConfig.defaultHttpClient.getCookieStore();
 
         String result; // 结果
         HttpResponse response = TestConfig.defaultHttpClient.execute(post);
