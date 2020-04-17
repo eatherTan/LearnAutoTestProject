@@ -12,22 +12,22 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
+import org.junit.Assert;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.springframework.test.context.web.WebAppConfiguration;
-import org.testng.Assert;
+//import org.junit.Test;
+//import org.junit.Before;
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import javax.annotation.Resource;
 import java.io.IOException;
 
-import static org.testng.Assert.*;
-@RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = Application.class)
-@WebAppConfiguration
-public class UserControllerTest {
+public class UserControllerTest extends AbstractTestNGSpringContextTests {
 
     @Resource
     private TestCaseDao testCaseDao;
@@ -52,7 +52,6 @@ public class UserControllerTest {
         System.out.println(TestConfig.loginUrl);
         //1-发送请求
         String result = getReult(loginCase);
-
         //2-验证结果
         Assert.assertEquals(loginCase.getExpected(),result);
     }
@@ -72,7 +71,7 @@ public class UserControllerTest {
 
     private String getReult(LoginCase loginCase) throws IOException {
         //TestConfig.addUserUrl 是接口请求地址
-        HttpPost post = new HttpPost(TestConfig.addUserUrl);
+        HttpPost post = new HttpPost(TestConfig.loginUrl);
         JSONObject param = new JSONObject();
         param.put("userName",loginCase.getUserName());
         param.put("password",loginCase.getPassword());

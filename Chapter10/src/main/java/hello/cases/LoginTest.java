@@ -13,23 +13,18 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.web.WebAppConfiguration;
+import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import javax.annotation.Resource;
 import java.io.IOException;
-@RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
-@WebAppConfiguration
-public class LoginTest {
+public class LoginTest extends AbstractTestNGSpringContextTests {
 
-//    @Autowired
-    @Resource
+    @Autowired
     private TestCaseDao testCaseDao;
 
     @BeforeTest(groups = "loginTrue",description = "测试准备工作，测试URL 、HTTPClient")
@@ -72,7 +67,7 @@ public class LoginTest {
 
     private String getReult(LoginCase loginCase) throws IOException {
         //TestConfig.addUserUrl 是接口请求地址
-        HttpPost post = new HttpPost(TestConfig.addUserUrl);
+        HttpPost post = new HttpPost(TestConfig.loginUrl);
         JSONObject param = new JSONObject();
         param.put("userName",loginCase.getUserName());
         param.put("password",loginCase.getPassword());

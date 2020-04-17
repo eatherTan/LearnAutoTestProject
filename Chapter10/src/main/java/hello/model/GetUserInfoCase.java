@@ -1,14 +1,23 @@
 package hello.model;
 
 public class GetUserInfoCase {
-    private int userId;
+    private Integer id;
+    private Integer userId;
     private String expected;
 
-    public int getUserId() {
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Integer getUserId() {
         return userId;
     }
 
-    public void setUserId(int userId) {
+    public void setUserId(Integer userId) {
         this.userId = userId;
     }
 
