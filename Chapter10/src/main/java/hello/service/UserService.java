@@ -1,6 +1,7 @@
 package hello.service;
 
 import hello.model.User;
+import hello.model.request.LoginRequest;
 import io.swagger.models.auth.In;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
@@ -17,5 +18,5 @@ public interface UserService {
 
     boolean updateUserInfo(User user) throws Exception;
 
-    boolean login(User user) throws Exception;
+    boolean login(LoginRequest user) throws Exception;
 }

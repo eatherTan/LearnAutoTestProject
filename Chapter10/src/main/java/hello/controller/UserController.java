@@ -1,6 +1,8 @@
 package hello.controller;
 
 import hello.model.User;
+import hello.model.request.GetUserInfoRequest;
+import hello.model.request.LoginRequest;
 import hello.model.request.QueryUserListRequest;
 import hello.service.UserService;
 import io.swagger.annotations.Api;
@@ -30,7 +32,7 @@ public class UserController {
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     @ApiOperation(value = "用户登录",httpMethod = "POST")
     @ResponseBody
-    public Boolean login(HttpServletResponse response, @RequestBody User user) throws Exception {
+    public Boolean login(HttpServletResponse response, @RequestBody LoginRequest user) throws Exception {
 
         Boolean login = userService.login(user);
         if (login == true){
@@ -52,9 +54,9 @@ public class UserController {
     @RequestMapping(value = "/getUserInfo",method = RequestMethod.POST)
     @ApiOperation(value = "获取用户信息",httpMethod = "POST")
     @ResponseBody
-    public User getUserInfo(HttpServletRequest httpServletRequest, @Param("id")Integer id) throws Exception {
+    public User getUserInfo(HttpServletRequest httpServletRequest, @RequestBody GetUserInfoRequest request) throws Exception {
         Boolean verifyCookie = verifyCookies(httpServletRequest);
-        User user = userService.getUserInfo(id);
+        User user = userService.getUserInfo(request.getId());
         return user;
     }
 

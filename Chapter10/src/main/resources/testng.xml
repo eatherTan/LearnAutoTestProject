@@ -9,7 +9,13 @@
                     <include name="testLogin"/>
                 </methods>
             </class>
+            <class name="hello.cases.AddUserTest">
+                <methods>
+                    <include name="addUser"/>
+                </methods>
+            </class>
         </classes>
+
     </test>
     <!--使用监听器-->
     <listeners>

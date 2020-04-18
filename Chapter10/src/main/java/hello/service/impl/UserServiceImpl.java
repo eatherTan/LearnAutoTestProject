@@ -2,6 +2,7 @@ package hello.service.impl;
 
 import hello.dao.UserDao;
 import hello.model.User;
+import hello.model.request.LoginRequest;
 import hello.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -62,7 +63,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public boolean login(User user) throws Exception {
+    public boolean login(LoginRequest user) throws Exception {
         if (user.getUserName() != null || user.getPassword() != null ){
             Map<String,Object> param = new HashMap<>();
             param.put("userName",user.getUserName());

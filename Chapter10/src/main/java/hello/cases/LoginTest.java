@@ -1,7 +1,6 @@
 package hello.cases;
 
 import com.alibaba.fastjson.JSONObject;
-import hello.Application;
 import hello.config.TestConfig;
 import hello.dao.TestCaseDao;
 import hello.model.InterfaceNameEnum;
@@ -12,7 +11,6 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
@@ -21,6 +19,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+
+
 @SpringBootTest
 public class LoginTest extends AbstractTestNGSpringContextTests {
 

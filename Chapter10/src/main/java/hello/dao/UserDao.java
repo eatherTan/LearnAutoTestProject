@@ -2,6 +2,7 @@ package hello.dao;
 
 import hello.model.User;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
@@ -20,7 +21,7 @@ public interface UserDao {
      */
     List<User> queryUserList(Map<String,Object> param);
 
-    User getUserInfo(Integer id);
+    User getUserInfo(@Param("id") Integer id);
 
     int addUser(User user);
 
