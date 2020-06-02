@@ -11,12 +11,15 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.Assert;
 
 import java.io.IOException;
 import java.util.*;
 
-public class GetUserInfoTest {
+@SpringBootTest
+public class GetUserInfoTest extends AbstractTestNGSpringContextTests {
 
     @Autowired
     private TestCaseDao testCaseDao;
@@ -27,6 +30,8 @@ public class GetUserInfoTest {
 
 
         JSONArray result = getResult(getUserInfoCase);
+
+        //为什么要加这一条，有可能数据还没有
         Thread.sleep(2000);
         //验证数据的正确性，这是自己从数据库中查出来的User
         Map<String,Object> param = new HashMap<>();
@@ -36,7 +41,8 @@ public class GetUserInfoTest {
         List userList = new ArrayList();
         userList.add(userInfo);
         JSONArray jsonArray = new JSONArray(userList);
-        Assert.assertEquals(jsonArray,result);
+        //需要转换成String
+        Assert.assertEquals(jsonArray.toString(),result.toString());
     }
 
     /**
