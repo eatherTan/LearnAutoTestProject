@@ -14,6 +14,11 @@
                     <include name="addUser"/>
                 </methods>
             </class>
+            <class name="hello.cases.GetUserInfoTest">
+                <methods>
+                    <include name="addUser"/>
+                </methods>
+            </class>
         </classes>
 
     </test>

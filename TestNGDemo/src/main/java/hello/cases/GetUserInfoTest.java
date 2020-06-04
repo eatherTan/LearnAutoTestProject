@@ -14,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.util.*;
@@ -24,6 +25,7 @@ public class GetUserInfoTest extends AbstractTestNGSpringContextTests {
     @Autowired
     private TestCaseDao testCaseDao;
 
+    @Test()
     public void testGetUserInfoTest() throws InterruptedException, IOException {
         //这里该怎么解决，不用手动传入参数
         GetUserInfoCase getUserInfoCase = testCaseDao.getUserInfo(1);

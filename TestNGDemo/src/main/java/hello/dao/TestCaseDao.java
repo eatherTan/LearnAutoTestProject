@@ -1,9 +1,6 @@
 package hello.dao;
 
-import hello.model.AddUserCase;
-import hello.model.GetUserInfoCase;
-import hello.model.LoginCase;
-import hello.model.User;
+import hello.model.*;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
@@ -21,6 +18,7 @@ public interface TestCaseDao {
 
     LoginCase getLoginCase(Integer id);
 
+    GetUserListCase getUserList(Map<String, Object> param);
     /**
      * 查询数据库中User表的数据
      * @param param

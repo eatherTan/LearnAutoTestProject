@@ -27,6 +27,34 @@
         where a.id = #{id}
     </select>
 
+    <select id="getUserList" resultType="hello.model.GetUserListCase">
+        select *
+        from getuserlistcase a
+        <trim prefix="WHERE" prefixOverrides="and">
+            <if test="id != null">
+                and  a.Id = #{id}
+            </if>
+            <if test="userName != null and userName != '' ">
+                and  a.UserName = #{userName}
+            </if>
+            <if test="password != null and password != '' ">
+                and  a.Password = #{password}
+            </if>
+            <if test="age != null and age != '' ">
+                and  a.Age = #{age}
+            </if>
+            <if test="sex != null and sex != '' ">
+                and  a.Sex = #{sex}
+            </if>
+            <if test="permission != null and permission != '' ">
+                and  a.Permission = #{permission}
+            </if>
+            <if test="isDelete != null and isDelete != '' ">
+                and  a.IsDelete = #{isDelete}
+            </if>
+        </trim>
+    </select>
+
     <select id="queryUser" resultType="hello.model.User">
         select *
         from user a

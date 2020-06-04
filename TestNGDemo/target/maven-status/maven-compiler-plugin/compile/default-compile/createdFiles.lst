@@ -1,0 +1,8 @@
+hello\server\MyGetMethod.class
+hello\application\Application.class
+hello\config\SwaggerConfig.class
+hello\controller\Demo.class
+hello\model\User.class
+hello\server\MyPostMethod.class
+hello\dao\UserDao.class
+hello\server\HelloController.class

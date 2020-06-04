@@ -29,8 +29,8 @@ public class AddUserTest extends AbstractTestNGSpringContextTests {
     @Autowired
     private UserDao userDao;
 
-//    @Test(dependsOnGroups = "loginTrue",description = "添加用户接口")
-    @Test
+    @Test(dependsOnGroups = "loginTrue",description = "添加用户接口")
+
     public void addUser() throws IOException {
         //测试数据放在数据库管理，数据库的是预期数据
         //AddUserCase 是从数据库中取出来的，把AddUserCase对象的数据作为新增呢

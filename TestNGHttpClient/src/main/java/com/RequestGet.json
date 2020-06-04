@@ -1,0 +1,64 @@
+[
+  {
+    "description": "带参数的Get请求 mock",
+    "request": {
+      "uri": "/requestGetParam",
+      "method": "get",
+      "queries": {
+        "name": "ni",
+        "age":"1"
+      }
+    },
+    "response": {
+      "text": "有参数的Get请求"
+    }
+  },
+  {
+    "description":"使用Get完成Mock请求",
+    "request":{
+      "uri":"/requestGet",
+      "method":"get"
+    },
+    "response":{
+      "text":"无参数 的Get请求"
+    }
+  },
+  {
+    "description": "带参数的Post请求",
+    "request": {
+      "uri": "/postDemo1",
+      "method": "post",
+      "forms": {
+        "name": "hi Post",
+        "age": "12"
+      }
+    },
+    "response": {
+      "text": "带参数的Post请求"
+    }
+  },
+  {
+    "description":"重定向到百度",
+    "request":{
+      "uri":"/redirect",
+      "method":"get"
+    },
+    "redirectTo":"http://www.baidu.com"
+  },
+  {
+    "description":"这是被重定向的请求",
+    "request":{
+      "uri":"/toRedirect"
+    },
+    "response":{
+      "text":"this is the redirect page"
+    }
+  },
+  {
+    "description":"重定向到自己的网页上，回到第一个uri里面",
+    "request":{
+      "uri":"/myStation"
+    },
+    "redirectTo":"/redirect"
+  }
+]
