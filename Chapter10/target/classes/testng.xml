@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--生成测试报告-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="reportTest">
+    <test name="report">
+        <classes>
+            <class name="hello.cases.LoginTest">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+            <class name="hello.cases.AddUserTest">
+                <methods>
+                    <include name="addUser"/>
+                </methods>
+            </class>
+            <!--<class name="hello.cases.GetUserInfoTest">-->
+                <!--<methods>-->
+                    <!--<include name="addUser"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+        </classes>
+
+    </test>
+    <!--使用监听器-->
+    <listeners>
+        <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <listener class-name="hello.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

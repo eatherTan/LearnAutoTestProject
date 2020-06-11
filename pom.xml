@@ -53,7 +53,5 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <version>2.2.2.RELEASE</version>
         </dependency>
-
     </dependencies>
-
 </project>
